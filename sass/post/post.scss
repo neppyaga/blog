@@ -1,20 +1,35 @@
 @import '../_variables.scss';
 
 .post {
-  .post__title {
+  .post-title {
     font-size:   28px;
     font-weight: bold;
   }
 
-  .post__toc {
-    padding:       24px;
-    margin:        24px 0;
-    border:        solid 1px $blue;
-    border-radius: 4px;
+  .post-date {
+    padding: 12px 0;
+    font-size: 14px;
+  }
 
+  .post-toc {
+    margin:        24px 0;
+    padding:       24px;
+    border-radius: 4px;
+    border:        solid 1px $blue;
+
+    .post-toc__title {
+      display:        inline-block;
+      font-size:      20px;
+      padding-bottom: 12px;
+    }
+    
     li {
       list-style-type: none;
     }
+  }
+
+  .post-toc__title {
+    font-size: 24px;
   }
 
 

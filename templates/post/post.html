@@ -6,8 +6,10 @@
 
 {% block content %}
 <div class="post">
-  <div class="post__title">{{ page.title }}</div>
-  <ul class="post__toc">
+  <div class="post-title">{{ page.title }}</div>
+  <div class="post-date">{{ page.date }}</div>
+  <ul class="post-toc">
+    <span class="post-toc__title">目次</span>
     {% for h1 in page.toc %}
       <li>
         <a href="{{h1.permalink | safe}}">{{ h1.title }}</a>
