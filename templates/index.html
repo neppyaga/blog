@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+/ TOP
+{% endblock title %}
+
+{% block content %}
+{% set post = get_section(path="post/_index.md") %}
+<div>
+  {% for page in post.pages %}
+    {{ page.title }}
+  {% endfor %}
+</div>
+{% endblock content %}

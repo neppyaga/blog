@@ -1,0 +1,9 @@
+@import './_variables.scss';
+@import './_base.scss';
+
+body {
+  font-family: "Roboto Mono";
+  padding: 16px;
+  background-color: $bg-color;
+  color:            white;
+}

@@ -1,4 +1,3 @@
 +++
-title = "test"
-template = "top.html"
+template = "index.html"
 +++
