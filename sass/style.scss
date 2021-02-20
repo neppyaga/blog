@@ -1,5 +1,6 @@
 @import './_variables.scss';
 @import './_base.scss';
+@import './index.scss';
 @import './post/post.scss';
 
 body {
@@ -10,5 +11,6 @@ body {
 }
 
 a {
-  color: $cyan;
+  color:           $cyan;
+  text-decoration: none;
 }

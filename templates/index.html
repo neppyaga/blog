@@ -5,10 +5,21 @@
 {% endblock title %}
 
 {% block content %}
-{% set post = get_section(path="post/_index.md") %}
-<div>
-  {% for page in post.pages %}
-    <a href="{{ page.permalink }}">{{ page.title }}</a>
-  {% endfor %}
+<div class="index-page">
+  {% set post = get_section(path="post/_index.md") %}
+  <div class="index-page post-list">
+    {% for page in post.pages %}
+      <div class="index-page post">
+        <a class="index-page post__title" href="{{ page.permalink }}">
+          {{ page.title }}
+        </a>
+        <div class="index-page post__date">投稿日: {{ page.date }}</div>
+        <p>
+          {{ page.summary | striptags }}
+        </p>
+        <a href="{{ page.permalink }}">続きを読む</a>
+      </div>
+    {% endfor %}
+  </div>
 </div>
 {% endblock content %}

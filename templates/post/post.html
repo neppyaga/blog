@@ -5,11 +5,11 @@
 {% endblock title %}
 
 {% block content %}
-<div class="post">
-  <div class="post-title">{{ page.title }}</div>
-  <div class="post-date">投稿日: {{ page.date }}</div>
-  <ul class="post-toc">
-    <span class="post-toc__title">目次</span>
+<div class="post-page">
+  <div class="post-page post-title">{{ page.title }}</div>
+  <div class="post-page post-date">投稿日: {{ page.date }}</div>
+  <ul class="post-page post-toc">
+    <span class="post-page post-toc__title">目次</span>
     {% for h1 in page.toc %}
       <li>
         <a href="{{h1.permalink | safe}}">{{ h1.title }}</a>
@@ -25,7 +25,7 @@
       </li>
     {% endfor %}
   </ul>
-  <div class="post-content">
+  <div class="post-page post-content">
     {{ page.content | safe }}
   </div>
 </div>
