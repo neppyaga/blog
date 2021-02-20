@@ -9,10 +9,6 @@ template = "post/post.html"
 
 本記事は技術メインで振り返りをしていきます。
 
-以下目次です。
-
-[:contents]
-
 # 2019年末
 2020年1月から内定先での内定者インターンが始まることが決まっていたため、インターンに向けた準備を進めていました。
 
@@ -42,12 +38,12 @@ ScalaとAngularはほとんど触れたことがなかったため、ScalaとAng
 
 チーム開発経験がほとんどなかったため、Git, Githubに関して知らないことがたくさんあることを自覚しました。その際の学習で使用した教材は以下が良かったです。
 
-[https://learngitbranching.js.org/?locale=ja:embed:cite]
+[Lean Git Branching](https://learngitbranching.js.org/?locale=ja)
 
 
 内定者インターンではVimを使用することになっていたためVimでのコーディングに慣れる練習をしました。最初は以下の教材で練習をしていました。
 
-[https://www.openvim.com/:embed:cite]
+[Interactive Vim tutorial](https://www.openvim.com/)
 
 配属チームではスクラム開発を採用しJiraでタスク管理を行っていました。スクラム開発は名前を聞いたことがある程度だったため概要を掴むためにインプットを行いました。
 
@@ -60,13 +56,13 @@ ScalaとAngularはほとんど触れたことがなかったため、ScalaとAng
 1つは「Tour of Scala」です。分からないこともありましたが6割くらいの理解で読み進めていたと思います。
 
 
-[https://docs.scala-lang.org/ja/tour/tour-of-scala.html:embed:cite]
+[前書き | Scala Documentation](https://docs.scala-lang.org/ja/tour/tour-of-scala.html)
 
 なんとか一周をして次の教材に進みました。
 
 次はN予備校の「大規模Webアプリ Scala基礎コース」に取り組みました。
 
-[https://www.nnn.ed.nico/pages/programming/:embed:cite]
+[N予備校 プログラミングコース](https://www.nnn.ed.nico/pages/programming/)
 
 とても良質な教材で楽しく読み進めました。12章の「ケースクラスと同一性」等は今読んだとしても学びになるなと思います。
 
@@ -74,7 +70,7 @@ ScalaとAngularはほとんど触れたことがなかったため、ScalaとAng
 余談ですが、この時期に参加したScalathonというイベントがとても楽しかったです。
 
 
-[https://scalathon.connpass.com/:embed:cite]
+[Scalathon (Scala petit Hack-a-thon) - connpass](https://scalathon.connpass.com/)
 
 初学者でも温かく迎えてくださり、Scalaの勉強に取り組むモチベーションがさらに上がるきっかけになりました。
 
@@ -110,7 +106,7 @@ ScalaとAngularはほとんど触れたことがなかったため、ScalaとAng
 参考資料として用意して頂いた「Scala実践入門」もとても分かりやすく、それまで曖昧に使っていたmap, flatMapやパターンマッチに関する動きを深く理解することができました。
 
 
-[https://gihyo.jp/book/2018/978-4-297-10141-1:embed:cite]
+[実践Scala入門：書籍案内｜技術評論社](https://gihyo.jp/book/2018/978-4-297-10141-1)
 
 ## 状態管理・RxJS
 入社後研修後半では個人でTodo管理アプリケーションを作成する応用研修がありました。
@@ -119,7 +115,7 @@ ScalaとAngularはほとんど触れたことがなかったため、ScalaとAng
 
 NGXSの公式ドキュメントはとても分かりやすかったなと思います。
 
-[https://www.ngxs.io/:embed:cite]
+[Introduction - NGXS](https://www.ngxs.io/:embed:cite)
 
 
 状態管理の概念と同時にRxJSに関しても学習を行いました。
@@ -131,7 +127,7 @@ NGXSの公式ドキュメントはとても分かりやすかったなと思い�
 ## DDDのインプット
 学生時代に少しだけ学んでいたDDDへの興味が再燃し、成瀬さんの「ドメイン駆動設計入門」を購入してDDDの学習をしました。
 
-[https://www.shoeisha.co.jp/book/detail/9784798150727:embed:cite]
+[ドメイン駆動設計入門  ボトムアップでわかる！ドメイン駆動設計の基本（成瀬 允宣）｜翔泳社の本](https://www.shoeisha.co.jp/book/detail/9784798150727)
 
 値オブジェクトとエンティティの違い等が分かりやすく、サンプルコードもたくさんあったので気軽に読み進めることができました。
 
@@ -155,7 +151,7 @@ Haskellや圏論の本を買って読んだり、個人開発でCatsライブラ
 
 社内勉強会の内容は同期がブログにもまとめています。ありがたい。尊敬。
 
-[https://taretmch.hatenablog.com/archive/category/%E5%9C%8F%E8%AB%96:embed:cite]
+[圏論 カテゴリーの記事一覧 - ともちんの Tech ブログ](https://taretmch.hatenablog.com/archive/category/%E5%9C%8F%E8%AB%96:embed:cite)
 
 
 ## Scala RookiesでのLT発表
@@ -163,7 +159,7 @@ Haskellや圏論の本を買って読んだり、個人開発でCatsライブラ
 
 内容は以下のブログにまとめています。
 
-[https://medium.com/nextbeat-engineering/scala-rookies-2%E3%81%AB%E7%99%BB%E5%A3%87%E3%81%97%E3%81%A6%E3%81%8D%E3%81%9F%E8%A9%B1-8572bcddabe4:embed:cite]
+[scala.rookies #2に登壇してきた話. ネクストビートの20新卒エンジニアの久代です。普段は保育園の業務支援を行うKID… | by Taichi Kushiro | nextbeat-engineering | Medium](https://medium.com/nextbeat-engineering/scala-rookies-2%E3%81%AB%E7%99%BB%E5%A3%87%E3%81%97%E3%81%A6%E3%81%8D%E3%81%9F%E8%A9%B1-8572bcddabe4)
 
 ファシリテーターにもチャレンジしたのですがとても緊張したのを覚えています。
 
@@ -172,7 +168,7 @@ Haskellや圏論の本を買って読んだり、個人開発でCatsライブラ
 ## 読書記録ブログ
 4~9月に読んだ本をまとめたブログを書きました。特に7~9月は色々な本を読んだなと思います。
 
-[https://medium.com/nextbeat-engineering/%E6%96%B0%E5%8D%92%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8C%E5%85%A5%E7%A4%BE%E5%8D%8A%E5%B9%B4%E3%81%A7%E3%82%A4%E3%83%B3%E3%83%97%E3%83%83%E3%83%88%E3%81%97%E3%81%9F%E5%86%85%E5%AE%B9%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F-42ecc6a87fd3:embed:cite]
+[新卒エンジニアが入社半年でインプットした内容をまとめてみた. 20新卒エンジニアの久代です。… | by Taichi Kushiro | nextbeat-engineering | Medium](https://medium.com/nextbeat-engineering/%E6%96%B0%E5%8D%92%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8C%E5%85%A5%E7%A4%BE%E5%8D%8A%E5%B9%B4%E3%81%A7%E3%82%A4%E3%83%B3%E3%83%97%E3%83%83%E3%83%88%E3%81%97%E3%81%9F%E5%86%85%E5%AE%B9%E3%82%92%E3%81%BE%E3%81%A8%E3%82%81%E3%81%A6%E3%81%BF%E3%81%9F-42ecc6a87fd3)
 
 
 # 10~12月
@@ -185,22 +181,19 @@ Haskellや圏論の本を買って読んだり、個人開発でCatsライブラ
 ## DDDのアウトプット
 以下のスライドを読んだことをきっかけに、「自分もScalaでDDDのサンプルコードのようなものを書いてみよう」と思い立ちアウトプットをし始めました。
 
-[https://speakerdeck.com/crossroad0201/scala-on-ddd:embed:cite]
+[scala-on-ddd - Speaker Deck](https://speakerdeck.com/crossroad0201/scala-on-ddd)
 
 最終的に出来上がったものとしては、DDD開発の基盤として用いる自分用のライブラリ（librame）のようなものと
 
-[https://github.com/taichi0315/librame:embed:cite]
+[neppyaga/librame: DDDを意識したWeb開発用ライブラリ。趣味を詰め込んでいる。](https://github.com/neppyaga/librame)
 
 そのライブラリを用いたサンプルコードのような立ち位置である、簡単な認証機能を持つプロジェクトを作成しました。
 
-[https://github.com/taichi0315/scala-ddd-auth-base:embed:cite]
+[neppyaga/scala-ddd-auth-base: DDDを意識したユーザー認証基盤。librameライブラリのサンプルコード的な立ち位置](https://github.com/neppyaga/scala-ddd-auth-base)
 
 プロジェクト内の採用技術はlibrameリポジトリのREADMEにまとめているのですが、その中でも特に学びが多かったのは[Eff](https://github.com/atnos-org/eff)と[Doobie](https://github.com/tpolecat/doobie)の2つのライブラリを導入した事かなと思います。
 
 最初はCatsのEitherTで実装していたユースケース層の処理をEffで書き換えた事で、Effから受ける恩恵を実感しました。
-
-[https://twitter.com/nepp_yaga/status/1322494458684825600?s=20:embed]
-
 
 Doobieライブラリに関しては必然的にCats Effectに関しても学ぶ必要があったため、Cats Effectのライブラリ（主にIOモナド）を読み込みました。
 
@@ -211,11 +204,11 @@ Doobieライブラリに関しては必然的にCats Effectに関しても学ぶ
 
 まだまだ道半ばでかつ最近は更新していないのですが、以下のリポジトリでゆるくアウトプットをしています。
 
-[https://github.com/taichi0315/tabby:embed:cite]
+[neppyaga/tabby: Catsライブラリをスクラッチから作りたい](https://github.com/neppyaga/tabby)
 
 その途中で得た学びをZennに投稿してみました。
 
-[https://zenn.dev/nepp_yaga/articles/cats-from-scratch-in-semigroup:embed:cite]
+[ゼロから作るCatsライブラリ ~ implicit編 ~](https://zenn.dev/nepp_yaga/articles/cats-from-scratch-in-semigroup)
 
 Githubリポジトリ・シリーズ化して投稿予定だったZennの記事ともに、途中で更新が止まっているので近いうちにまた力を入れて取り組み直したいです。やり抜くの大事。
 
@@ -235,8 +228,6 @@ Githubリポジトリ・シリーズ化して投稿予定だったZennの記事�
 - CQRS
 
 最近はクリスマスにずっと欲しかったEvans本を書いました。上記のキーワードに関連する内容が多く登場するのでとても楽しく読ませていただいています。
-
-[https://twitter.com/nepp_yaga/status/1342106056168599552?s=20:embed]
 
 「がむしゃらにインプットをしている」とは言いましたが、自分の興味のゆくままにインプットをしていると
 

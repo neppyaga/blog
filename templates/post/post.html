@@ -7,7 +7,7 @@
 {% block content %}
 <div class="post">
   <div class="post-title">{{ page.title }}</div>
-  <div class="post-date">{{ page.date }}</div>
+  <div class="post-date">投稿日: {{ page.date }}</div>
   <ul class="post-toc">
     <span class="post-toc__title">目次</span>
     {% for h1 in page.toc %}
