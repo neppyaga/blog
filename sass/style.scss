@@ -1,9 +1,10 @@
 @import './_variables.scss';
 @import './_base.scss';
+@import './post/post.scss';
 
 body {
-  font-family: "Roboto Mono";
-  padding: 16px;
+  font-family:      "Roboto Mono";
+  padding:          16px;
   background-color: $bg-color;
   color:            white;
 }

@@ -1,0 +1,38 @@
+@import '../_variables.scss';
+
+.post {
+  .post__title {
+    font-size:   28px;
+    font-weight: bold;
+  }
+
+  h1, h2, h3, h4, h5 {
+    display: inline-block;
+    padding: 8px 0;
+  }
+
+  h1 {
+    border-bottom: solid 4px $blue;
+    font-size:     24px;
+  }
+
+  h2 {
+    border-bottom: solid 4px $yellow;
+    font-size:     22px;
+  }
+
+  h3 {
+    border-bottom: solid 4px $red;
+    font-size:     20px;
+  }
+
+  h4 {
+    border-bottom: solid 4px $green;
+    font-size:     18px;
+  }
+
+  h5 {
+    border-bottom: solid 4px $cyan;
+    font-size:     16px;
+  }
+}

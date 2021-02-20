@@ -6,10 +6,8 @@
     Yaga & Me
     {% block title %}{% endblock title %}
   </title>
-  {% block js %}{% endblock js %}
-  {% block css %}
-    <link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
-  {% endblock css %}
+  {% block css %}{% endblock css %}
+  <link rel="stylesheet" href="{{ get_url(path="style.css") | safe }}">
   {% block metadata %}{% endblock metadata %}
 </head>
 <body>
@@ -21,7 +19,5 @@
     {% block content %}{% endblock content %}
   </main>
   <footer><a href="{{ config.base_url }}">{{ config.title }}</a></footer>
-  {% block js_body %}
-  {% endblock js_body %}
 </body>
 </html>
