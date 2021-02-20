@@ -7,7 +7,7 @@
 {% block content %}
 <div class="post">
   <div class="post__title">{{ page.title }}</div>
-  <ul>
+  <ul class="post__toc">
     {% for h1 in page.toc %}
       <li>
         <a href="{{h1.permalink | safe}}">{{ h1.title }}</a>

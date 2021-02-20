@@ -4,7 +4,8 @@ template = "post/post.html"
 +++
 
 # h1
-test
+- li1
+  - li2
 
 ## h2
 test
