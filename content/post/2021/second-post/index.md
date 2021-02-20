@@ -1,7 +1,6 @@
 +++
 title = "2番目の記事"
+template = "post/post.html"
 +++
-
-# 2番目の記事
 
 zolaで作りました。

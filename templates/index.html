@@ -8,7 +8,7 @@
 {% set post = get_section(path="post/_index.md") %}
 <div>
   {% for page in post.pages %}
-    {{ page.title }}
+    <a href="{{ page.permalink }}">{{ page.title }}</a>
   {% endfor %}
 </div>
 {% endblock content %}

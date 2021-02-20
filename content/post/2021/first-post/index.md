@@ -1,7 +1,6 @@
 +++
 title = "最初の記事"
+template = "post/post.html"
 +++
-
-# 最初の記事
 
 zolaで作りました。
