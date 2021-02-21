@@ -6,6 +6,7 @@ template = "post/post.html"
 
 # はじめに
 Neovimのcolor schemeに以下のschemeを用いている。
+
 [kaicataldo/material.vim: 🎨 A port of the Material color scheme for Vim/Neovim](https://github.com/kaicataldo/material.vim)
 
 Alacrittyターミナルの色設定もmaterialに対応させようとしたところ、思ったような設定ファイルが見つからなかったので自分で設定ファイルを作った。
