@@ -11,7 +11,7 @@
   <meta property="og:title"        content="{{ page.title }}" />
   <meta property="og:description"  content="{{ page.summary | striptags }}" />
   <meta property="og:url"          content="{{ page.permalink }}" />
-  <meta name="twitter:title"       content="{{ page.title }}" />
+  <meta name="twitter:title"       content="{{ config.title }} / {{ page.title }}" />
   <meta name="twitter:description" content="{{ page.summary | striptags }}" />
 {% endblock metadata %}
 
