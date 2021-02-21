@@ -65,5 +65,19 @@
       border-bottom: solid 3px $cyan;
       font-size:     16px;
     }
+
+    p code {
+      margin:           0 4px;
+      padding:          2px 6px;
+      background-color: $separator-color;
+      border-radius:    2px;
+    }
+
+    pre {
+      padding:       12px;
+      border:        $separator;
+      border-radius: 4px;
+      line-height:   20px;
+    }
   }
 }
