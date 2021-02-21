@@ -3,7 +3,10 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta property="og:site_name" content="{{ config.title }}" />
-  <meta property="og:image"     content="https://avatars.githubusercontent.com/u/23194090?s=460&v=4" />
+  <meta property="og:image"     content="{{ config.extra.thumbnail_url }}" />
+  <meta name="twitter:card" content="Summary Card" />
+  <meta name="twitter:site" content="@nepp_yaga" />
+  <meta name="twitter:image" content="{{ config.extra.thumbnail_url }}" />
   {% block metadata %}{% endblock metadata %}
   {% block title %}{% endblock title %}
   {% block css %}{% endblock css %}

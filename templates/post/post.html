@@ -7,10 +7,12 @@
 {% endblock title %}
 
 {% block metadata %}
-  <meta property="og:type"        content="article" />
-  <meta property="og:title"       content="{{ config.title }} / {{ page.title }}" />
-  <meta property="og:description" content="{{ page.summary | striptags }}" />
-  <meta property="og:url"         content="{{ page.permalink }}" />
+  <meta property="og:type"         content="article" />
+  <meta property="og:title"        content="{{ config.title }} / {{ page.title }}" />
+  <meta property="og:description"  content="{{ page.summary | striptags }}" />
+  <meta property="og:url"          content="{{ page.permalink }}" />
+  <meta name="twitter:title"       content="{{ config.title }} / {{ page.title }}" />
+  <meta name="twitter:description" content="{{ page.summary | striptags }}" />
 {% endblock metadata %}
 
 {% block content %}

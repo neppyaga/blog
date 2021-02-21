@@ -7,10 +7,12 @@
 {% endblock title %}
 
 {% block metadata %}
-  <meta property="og:type"        content="website" />
-  <meta property="og:title"       content="{{ config.title }}" />
-  <meta property="og:description" content="{{ config.description }}" />
-  <meta property="og:url"         content="{{ config.base_url }}" />
+  <meta property="og:type"         content="website" />
+  <meta property="og:title"        content="{{ config.title }}" />
+  <meta property="og:description"  content="{{ config.description }}" />
+  <meta property="og:url"          content="{{ config.base_url }}" />
+  <meta name="twitter:title"       content="{{ config.title }}" />
+  <meta name="twitter:description" content="{{ config.description }}" />
 {% endblock metadata %}
 
 {% block content %}
