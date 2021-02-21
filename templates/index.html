@@ -7,7 +7,10 @@
 {% endblock title %}
 
 {% block metadata %}
-  <meta property="og:title" content="{{ config.title }}" />
+  <meta property="og:title"       content="{{ config.title }}" />
+  <meta property="og:description" content="{{ config.description }}" />
+  <meta property="og:url"         content="{{ config.base_url }}" />
+  <meta property="og:image"       content="https://avatars.githubusercontent.com/u/23194090?s=460&v=4" />
 {% endblock metadata %}
 
 {% block content %}
