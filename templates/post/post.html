@@ -6,6 +6,13 @@
 </title>
 {% endblock title %}
 
+{% block metadata %}
+  <meta property="og:type"        content="article" />
+  <meta property="og:title"       content="{{ config.title }} / {{ page.title }}" />
+  <meta property="og:description" content="{{ page.summary | striptags }}" />
+  <meta property="og:url"         content="{{ page.permalink }}" />
+{% endblock metadata %}
+
 {% block content %}
 <div class="post-page">
   <div class="post-page post-title">{{ page.title }}</div>
