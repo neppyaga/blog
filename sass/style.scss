@@ -3,10 +3,10 @@
 @import './index.scss';
 @import './post/_post.scss';
 @import './post/_post-content.scss';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 body {
-  font-family:      "Noto Sans", sans-serif;
+  font-family:      "Noto Sans JP", sans-serif;
   padding:          16px;
   background-color: $bg-color;
   color:            white;
