@@ -1,8 +1,14 @@
 {% extends "base.html" %}
 
 {% block title %}
-/ TOP
+<title>
+  {{ config.title }}
+</title>
 {% endblock title %}
+
+{% block metadata %}
+  <meta property="og:title" content="{{ config.title }}" />
+{% endblock metadata %}
 
 {% block content %}
 <div class="index-page">
