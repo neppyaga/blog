@@ -15,8 +15,8 @@
   <meta name="twitter:description" content="{{ page.summary | striptags }}" />
   {% set asset = page.assets | first %}
   {% if asset is matching("[.](jpg|png)$") %}
-    <meta property="og:image"  content="{{ resize_image(path=asset, width=240, height=200, op="fill") | safe }}" />
-    <meta name="twitter:image" content="{{ resize_image(path=asset, width=240, height=200, op="fill") | safe }}" />
+    <meta property="og:image"  content="{{ resize_image(path=asset, width=250, height=250, op="fill") | safe }}" />
+    <meta name="twitter:image" content="{{ resize_image(path=asset, width=250, height=250, op="fill") | safe }}" />
   {% endif %}
 {% endblock metadata %}
 
