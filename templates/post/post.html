@@ -10,12 +10,14 @@
   <meta property="og:type"         content="article" />
   <meta property="og:title"        content="{{ page.title }}" />
   <meta property="og:description"  content="{{ page.summary | striptags }}" />
-  {% set asset = page.assets | first %}
-  <meta property="og:image"        content="{{ asset }}" />
   <meta property="og:url"          content="{{ page.permalink }}" />
   <meta name="twitter:title"       content="{{ config.title }} / {{ page.title }}" />
   <meta name="twitter:description" content="{{ page.summary | striptags }}" />
-  <meta name="twitter:image"       content="{{ asset }}" />
+  {% set asset = page.assets | first %}
+  {% if asset is matching("[.](jpg|png)$") %}
+    <meta property="og:image"  content="{{ resize_image(path=asset, width=240, height=200, op="fill") | safe }}" />
+    <meta name="twitter:image" content="{{ resize_image(path=asset, width=240, height=200, op="fill") | safe }}" />
+  {% endif %}
 {% endblock metadata %}
 
 {% block content %}
