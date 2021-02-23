@@ -11,8 +11,10 @@
   <meta property="og:title"        content="{{ config.title }}" />
   <meta property="og:description"  content="{{ config.description }}" />
   <meta property="og:url"          content="{{ config.base_url }}" />
+  <meta property="og:image"        content="{{ config.extra.thumbnail_url }}" />
   <meta name="twitter:title"       content="{{ config.title }}" />
   <meta name="twitter:description" content="{{ config.description }}" />
+  <meta name="twitter:image"       content="{{ config.extra.thumbnail_url }}" />
 {% endblock metadata %}
 
 {% block content %}
