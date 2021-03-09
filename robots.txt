@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://neppyaga.github.io/blog/sitemap.xml
